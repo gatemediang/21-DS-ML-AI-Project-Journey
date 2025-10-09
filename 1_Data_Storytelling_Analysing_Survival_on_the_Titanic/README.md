@@ -88,6 +88,21 @@ A correlation heatmap is generated for numerical features to visualize the linea
 
 The `ydata-profiling` library is used to generate a comprehensive interactive HTML report summarizing the dataset. This report provides detailed statistics, visualizations, and insights for each variable and their interactions. The report is displayed within the notebook and can also be exported to an HTML file (`data_report.html`).
 
+## Key Findings from EDA
+
+- Survival Rate: Only about 38.4% of the passengers in this dataset survived the Titanic disaster.
+- Passenger Class (Pclass): Passenger class was a strong indicator of survival. First-class passengers had a significantly higher survival rate compared to those in second and third class.
+- Sex: Gender was the most influential factor in survival. Females had a much higher survival rate (around 75%) than males (below 20%). This highlights the "women and children first" protocol.
+- Age: Age played a role in survival. Infants and young children had a better chance of surviving, while a large proportion of non-survivors were young adults.
+- Embarked: Passengers who embarked from Cherbourg ('C') had a higher survival rate than those from Southampton ('S') or Queenstown ('Q').
+- Has_Cabin: Passengers for whom cabin information was available had a higher survival rate. This is likely correlated with being in a higher passenger class.
+- Family Size and Alone Status: Traveling in small families (2–4 people) was associated with the highest survival rates. Passengers traveling alone or in very large families had lower survival rates.
+- Title: The title extracted from names provided valuable insight. 'Mrs' and 'Miss' (mostly females) had high survival rates, while 'Mr' (mostly males) had a low survival rate. 'Master' (young boys) also had a relatively higher survival rate than adult males.
+- Fare: There was a positive correlation between fare and survival, indicating that passengers who paid higher fares (likely in higher classes) were more likely to survive. The fare distribution was heavily skewed, with many low fares and a few very high fares.
+- Missing Data: Significant missing data was found in the 'Age', 'Cabin', and 'Embarked' columns. Age and Embarked were imputed, while 'Cabin' was transformed into a 'Has_Cabin' feature due to the high percentage of missing values.
+
+These findings suggest that socio-economic status (Pclass, Fare, Has_Cabin) and demographic factors (Sex, Age, Title, Family Size) were significant factors influencing survival on the Titanic.
+
 ## How to Run the Notebook
 
 To run this notebook and reproduce the analysis:
