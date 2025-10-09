@@ -10,6 +10,7 @@ The sinking of the RMS Titanic is one of the most infamous maritime disasters in
 
 This notebook provides an end-to-end exploratory data analysis (EDA) of the Titanic dataset. It covers the entire process from initial data loading and inspection to detailed univariate, bivariate, and multivariate analysis, including feature engineering and correlation analysis. The goal is to provide a comprehensive understanding of the dataset and the factors related to survival, serving as a foundational step for potential future modeling efforts.
 Google Colab: [Open in Colab](https://colab.research.google.com/drive/1FNq5-xSNv_CDABhmkk1ki995T2MOpZL1?authuser=1#scrollTo=362d1908)
+Titanic Dataset Profiling Report: [data_report.html](data_report.html)
 
 ## 3. Step-by-Step Analysis
 
