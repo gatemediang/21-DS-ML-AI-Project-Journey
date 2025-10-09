@@ -1,5 +1,7 @@
 # End-to-End Exploratory Data Analysis (EDA) on the Titanic Dataset
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1FNq5-xSNv_CDABhmkk1ki995T2MOpZL1?authuser=1#scrollTo=362d1908)
+
 ## 1. Problem Statement
 
 The sinking of the RMS Titanic is one of the most infamous maritime disasters in history. This project aims to explore and analyze the dataset containing information about the passengers aboard the Titanic to identify key factors that influenced survival. The core problem is to understand *who* survived and *why*, using data analysis techniques to uncover patterns and relationships within the data.
@@ -7,6 +9,7 @@ The sinking of the RMS Titanic is one of the most infamous maritime disasters in
 ## 2. Solution Offered
 
 This notebook provides an end-to-end exploratory data analysis (EDA) of the Titanic dataset. It covers the entire process from initial data loading and inspection to detailed univariate, bivariate, and multivariate analysis, including feature engineering and correlation analysis. The goal is to provide a comprehensive understanding of the dataset and the factors related to survival, serving as a foundational step for potential future modeling efforts.
+Google Colab: [Open in Colab](https://colab.research.google.com/drive/1FNq5-xSNv_CDABhmkk1ki995T2MOpZL1?authuser=1#scrollTo=362d1908)
 
 ## 3. Step-by-Step Analysis
 
