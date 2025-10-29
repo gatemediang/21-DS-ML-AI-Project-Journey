@@ -6,7 +6,7 @@ Conducting thorough and up-to-date research on rapidly evolving fields, such as 
 
 ## 2. Solution Offered
 
-This project demonstrates the use of AI agents, powered by CrewAI, to automate the process of researching the latest AI industry trends and generating a blog post based on the findings. By defining specialized agents with distinct roles (Market Researcher, Content Writer and a summarization crew) and tasks, the workflow streamlines information gathering, analysis, and content creation and summarization. The integration of a search tool allows the agents to access real-time information from the internet, ensuring the research is current.
+This project demonstrates the use of AI agents, powered by CrewAI, to automate the process of researching the latest AI industry trends and generating a blog post based on the findings. By defining specialized agents with distinct roles (Market Researcher and Content Writer) and tasks, the workflow streamlines information gathering, analysis, and content creation. The integration of a search tool allows the agents to access real-time information from the internet, ensuring the research is current. Finally summerize 
 
 ## 3. All Libraries Used and Why
 
